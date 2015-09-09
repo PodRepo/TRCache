@@ -7,7 +7,7 @@
  */
 
 #import "TRWebDataDownloader.h"
-#import "AFURLConnectionOperation.h"
+#import <AFNetworking.h>
 
 static NSString *const kProgressCallbackKey = @"progress";
 static NSString *const kCompletedCallbackKey = @"completed";
