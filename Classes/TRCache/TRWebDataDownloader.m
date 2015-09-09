@@ -7,7 +7,7 @@
  */
 
 #import "TRWebDataDownloader.h"
-#import <AFNetworking.h>
+#import "AFNetworking.h"
 
 static NSString *const kProgressCallbackKey = @"progress";
 static NSString *const kCompletedCallbackKey = @"completed";
@@ -103,8 +103,8 @@ static NSString *const kCompletedCallbackKey = @"completed";
         //        }
         operation = [[AFURLConnectionOperation alloc] initWithRequest:request];
         [operation setDownloadProgressBlock:^(NSUInteger bytesRead, long long totalBytesRead, long long totalBytesExpectedToRead) {
-            NSInteger receivedSize = totalBytesRead;
-            NSInteger expectedSize = totalBytesExpectedToRead;
+            long long receivedSize = totalBytesRead;
+            long long expectedSize = totalBytesExpectedToRead;
             TRWebDataDownloader *sself = wself;
             if (!sself) return;
             __block NSArray *callbacksForURL;
@@ -193,7 +193,7 @@ static NSString *const kCompletedCallbackKey = @"completed";
         }
     }];
     
-    return operation;
+    return (id<TRWebDataOperation>)operation;
 }
 
 - (void)addProgressCallback:(TRWebDataDownloaderProgressBlock)progressBlock andCompletedBlock:(TRWebDataDownloaderCompletedBlock)completedBlock forURL:(NSURL *)url createCallback:(TRWebDataNoParamsBlock)createCallback {

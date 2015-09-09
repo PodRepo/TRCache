@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
 
   s.name         = "TRCache"
-  s.version      = "0.0.1"
-  s.summary      = "A short description of TRCache."
+  s.version      = "0.0.2"
+  s.summary      = "net work res fetch and store"
 
   s.description  = <<-DESC
                    A longer description of TRCache in Markdown format.
@@ -13,14 +13,14 @@ Pod::Spec.new do |s|
                    * Finally, don't worry about the indent, CocoaPods strips it!
                    DESC
 
-  s.homepage     = "http://EXAMPLE/TRCache"
+  s.homepage     = "http://lijinchao.sinaapp.com"
 
   s.license      = "Apache License"
  
-  s.author             = { "" => "" }
+  s.author             = { "ljc" => "lijinchao2007@163.com" }
 
 
-  s.platform     = :ios, “7.0”
+  s.platform     = :ios, "7.0"
 
  
   s.source       = { :git => "https://github.com/PodRepo/TRCache.git", :tag => "0.0.1" }
