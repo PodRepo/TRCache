@@ -103,8 +103,8 @@ static NSString *const kCompletedCallbackKey = @"completed";
         //        }
         operation = [[AFURLConnectionOperation alloc] initWithRequest:request];
         [operation setDownloadProgressBlock:^(NSUInteger bytesRead, long long totalBytesRead, long long totalBytesExpectedToRead) {
-            long long receivedSize = totalBytesRead;
-            long long expectedSize = totalBytesExpectedToRead;
+            NSInteger receivedSize = (NSInteger)totalBytesRead;
+            NSInteger expectedSize = (NSInteger)totalBytesExpectedToRead;
             TRWebDataDownloader *sself = wself;
             if (!sself) return;
             __block NSArray *callbacksForURL;
