@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C04EB7151BA0414000CF775E /* TRCache.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C04EB7141BA0414000CF775E /* TRCache.h */; };
+		C04EB7171BA0414000CF775E /* TRCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C04EB7161BA0414000CF775E /* TRCache.m */; };
+		C04EB71D1BA0414100CF775E /* libTRCache.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C04EB7111BA0414000CF775E /* libTRCache.a */; };
+		C04EB7331BA0415F00CF775E /* TRWebDataCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C04EB72C1BA0415F00CF775E /* TRWebDataCache.m */; };
+		C04EB7341BA0415F00CF775E /* TRWebDataDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = C04EB72F1BA0415F00CF775E /* TRWebDataDownloader.m */; };
+		C04EB7351BA0415F00CF775E /* TRWebDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C04EB7311BA0415F00CF775E /* TRWebDataManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C04EB71E1BA0414100CF775E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C04EB7091BA0414000CF775E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C04EB7101BA0414000CF775E;
+			remoteInfo = TRCache;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C04EB70F1BA0414000CF775E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				C04EB7151BA0414000CF775E /* TRCache.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C04EB7111BA0414000CF775E /* libTRCache.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTRCache.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C04EB7141BA0414000CF775E /* TRCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRCache.h; sourceTree = "<group>"; };
+		C04EB7161BA0414000CF775E /* TRCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRCache.m; sourceTree = "<group>"; };
+		C04EB71C1BA0414100CF775E /* TRCacheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRCacheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C04EB7221BA0414100CF775E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C04EB72B1BA0415F00CF775E /* TRWebDataCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRWebDataCache.h; sourceTree = "<group>"; };
+		C04EB72C1BA0415F00CF775E /* TRWebDataCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRWebDataCache.m; sourceTree = "<group>"; };
+		C04EB72D1BA0415F00CF775E /* TRWebDataCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRWebDataCompat.h; sourceTree = "<group>"; };
+		C04EB72E1BA0415F00CF775E /* TRWebDataDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRWebDataDownloader.h; sourceTree = "<group>"; };
+		C04EB72F1BA0415F00CF775E /* TRWebDataDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRWebDataDownloader.m; sourceTree = "<group>"; };
+		C04EB7301BA0415F00CF775E /* TRWebDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRWebDataManager.h; sourceTree = "<group>"; };
+		C04EB7311BA0415F00CF775E /* TRWebDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRWebDataManager.m; sourceTree = "<group>"; };
+		C04EB7321BA0415F00CF775E /* TRWebDataOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRWebDataOperation.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C04EB70E1BA0414000CF775E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C04EB7191BA0414100CF775E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C04EB71D1BA0414100CF775E /* libTRCache.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C04EB7081BA0414000CF775E = {
+			isa = PBXGroup;
+			children = (
+				C04EB7131BA0414000CF775E /* TRCache */,
+				C04EB7201BA0414100CF775E /* TRCacheTests */,
+				C04EB7121BA0414000CF775E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C04EB7121BA0414000CF775E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C04EB7111BA0414000CF775E /* libTRCache.a */,
+				C04EB71C1BA0414100CF775E /* TRCacheTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C04EB7131BA0414000CF775E /* TRCache */ = {
+			isa = PBXGroup;
+			children = (
+				C04EB7141BA0414000CF775E /* TRCache.h */,
+				C04EB7161BA0414000CF775E /* TRCache.m */,
+				C04EB72B1BA0415F00CF775E /* TRWebDataCache.h */,
+				C04EB72C1BA0415F00CF775E /* TRWebDataCache.m */,
+				C04EB72D1BA0415F00CF775E /* TRWebDataCompat.h */,
+				C04EB72E1BA0415F00CF775E /* TRWebDataDownloader.h */,
+				C04EB72F1BA0415F00CF775E /* TRWebDataDownloader.m */,
+				C04EB7301BA0415F00CF775E /* TRWebDataManager.h */,
+				C04EB7311BA0415F00CF775E /* TRWebDataManager.m */,
+				C04EB7321BA0415F00CF775E /* TRWebDataOperation.h */,
+			);
+			path = TRCache;
+			sourceTree = "<group>";
+		};
+		C04EB7201BA0414100CF775E /* TRCacheTests */ = {
+			isa = PBXGroup;
+			children = (
+				C04EB7211BA0414100CF775E /* Supporting Files */,
+			);
+			path = TRCacheTests;
+			sourceTree = "<group>";
+		};
+		C04EB7211BA0414100CF775E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C04EB7221BA0414100CF775E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C04EB7101BA0414000CF775E /* TRCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C04EB7251BA0414100CF775E /* Build configuration list for PBXNativeTarget "TRCache" */;
+			buildPhases = (
+				C04EB70D1BA0414000CF775E /* Sources */,
+				C04EB70E1BA0414000CF775E /* Frameworks */,
+				C04EB70F1BA0414000CF775E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRCache;
+			productName = TRCache;
+			productReference = C04EB7111BA0414000CF775E /* libTRCache.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C04EB71B1BA0414100CF775E /* TRCacheTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C04EB7281BA0414100CF775E /* Build configuration list for PBXNativeTarget "TRCacheTests" */;
+			buildPhases = (
+				C04EB7181BA0414100CF775E /* Sources */,
+				C04EB7191BA0414100CF775E /* Frameworks */,
+				C04EB71A1BA0414100CF775E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C04EB71F1BA0414100CF775E /* PBXTargetDependency */,
+			);
+			name = TRCacheTests;
+			productName = TRCacheTests;
+			productReference = C04EB71C1BA0414100CF775E /* TRCacheTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C04EB7091BA0414000CF775E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "joshua li";
+				TargetAttributes = {
+					C04EB7101BA0414000CF775E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					C04EB71B1BA0414100CF775E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = C04EB70C1BA0414000CF775E /* Build configuration list for PBXProject "TRCache" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C04EB7081BA0414000CF775E;
+			productRefGroup = C04EB7121BA0414000CF775E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C04EB7101BA0414000CF775E /* TRCache */,
+				C04EB71B1BA0414100CF775E /* TRCacheTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C04EB71A1BA0414100CF775E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C04EB70D1BA0414000CF775E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C04EB7341BA0415F00CF775E /* TRWebDataDownloader.m in Sources */,
+				C04EB7171BA0414000CF775E /* TRCache.m in Sources */,
+				C04EB7351BA0415F00CF775E /* TRWebDataManager.m in Sources */,
+				C04EB7331BA0415F00CF775E /* TRWebDataCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C04EB7181BA0414100CF775E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C04EB71F1BA0414100CF775E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C04EB7101BA0414000CF775E /* TRCache */;
+			targetProxy = C04EB71E1BA0414100CF775E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C04EB7231BA0414100CF775E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C04EB7241BA0414100CF775E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C04EB7261BA0414100CF775E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C04EB7271BA0414100CF775E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C04EB7291BA0414100CF775E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TRCacheTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C04EB72A1BA0414100CF775E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TRCacheTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C04EB70C1BA0414000CF775E /* Build configuration list for PBXProject "TRCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C04EB7231BA0414100CF775E /* Debug */,
+				C04EB7241BA0414100CF775E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C04EB7251BA0414100CF775E /* Build configuration list for PBXNativeTarget "TRCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C04EB7261BA0414100CF775E /* Debug */,
+				C04EB7271BA0414100CF775E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C04EB7281BA0414100CF775E /* Build configuration list for PBXNativeTarget "TRCacheTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C04EB7291BA0414100CF775E /* Debug */,
+				C04EB72A1BA0414100CF775E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C04EB7091BA0414000CF775E /* Project object */;
+}
