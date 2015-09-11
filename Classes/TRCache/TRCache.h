@@ -9,3 +9,7 @@
 
 
 #import "TRWebDataManager.h"
+#import "TRWebDataCache.h"
+#import "TRWebDataCompat.h"
+#import "TRWebDataDownloader.h"
+#import "TRWebDataOperation.h"

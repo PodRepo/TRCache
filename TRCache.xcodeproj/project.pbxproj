@@ -76,6 +76,7 @@
 		C04EB7111BA0414000CF775E /* libTRCache.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTRCache.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C04EB71C1BA0414100CF775E /* TRCacheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRCacheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C04EB7221BA0414100CF775E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C08809B81BA2EA4900FE6C2F /* TRCache.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TRCache.podspec; sourceTree = "<group>"; };
 		C0FD6E961BA047F200D41ABD /* TRCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRCache.h; sourceTree = "<group>"; };
 		C0FD6E971BA047F200D41ABD /* TRWebDataCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRWebDataCache.h; sourceTree = "<group>"; };
 		C0FD6E981BA047F200D41ABD /* TRWebDataCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRWebDataCache.m; sourceTree = "<group>"; };
@@ -176,6 +177,7 @@
 		C04EB7081BA0414000CF775E = {
 			isa = PBXGroup;
 			children = (
+				C08809B81BA2EA4900FE6C2F /* TRCache.podspec */,
 				C0FD6E941BA047F200D41ABD /* Classes */,
 				C04EB7201BA0414100CF775E /* TRCacheTests */,
 				C0053D8A1BA04D0500A0228B /* TRCacheExample */,
